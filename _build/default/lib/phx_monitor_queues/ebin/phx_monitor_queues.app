@@ -1,0 +1,12 @@
+{application,phx_monitor_queues,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{phx_monitor_queues_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[{store_limit,5},{max_message_queue_len,3}]},
+              {modules,[phx_monitor_queues,phx_monitor_queues_app,
+                        phx_monitor_queues_sup]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
